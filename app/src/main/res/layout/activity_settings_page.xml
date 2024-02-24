@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Back Button (Left to 'Settings') -->
+
+    <!-- Settings Section with Box -->
+
+    <LinearLayout
+        android:id="@+id/settingsBox"
+        android:layout_width="wrap_content"
+        android:layout_height="326dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="320dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Settings Heading -->
+
+        <!-- General Section -->
+
+        <!-- Check Box - Play Sound on Score Up -->
+
+        <!-- Player List Section -->
+        <!-- Check Box - Play Sound on Score Up -->
+        <TextView
+            android:id="@+id/generalHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/playSoundCheckBox"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Play Sound on Score Up"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/playerListHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player List"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Description for Player List -->
+        <TextView
+            android:id="@+id/playerListDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maintain a list of player names"
+            android:textSize="12sp" />
+
+        <!-- External Display Section -->
+
+        <!-- Description for External Display -->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/settingsHeading"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="137dp"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="35dp"
+        android:layout_height="29dp"
+
+        android:src="@drawable/back_icon" />
+
+</RelativeLayout>
